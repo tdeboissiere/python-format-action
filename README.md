@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      # Run isort + black formatter
+      # Run reorder-python-imports + black formatter
       - name: Black Code Formatter
         uses: tdeboissiere/python-format-action@master
 ```
