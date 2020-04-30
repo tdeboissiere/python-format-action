@@ -28,3 +28,11 @@ jobs:
       - name: Black Code Formatter
         uses: tdeboissiere/python-format-action@master
 ```
+
+You can then add a status in your README by adding:
+
+`![](https://github.com/ACCOUNT_NAME/REPO_NAME/workflows/PythonFormatting/badge.svg)`
+
+If the name of your workflow contains a space, e.g. `Python Formatting`, use `%20`:
+
+`![](https://github.com/ACCOUNT_NAME/REPO_NAME/workflows/Python%20Formatting/badge.svg)`
