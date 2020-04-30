@@ -1,0 +1,9 @@
+# action.yml
+name: "python-format-action"
+description: "GitHub action to apply black formatting + reorder-python-imports"
+branding:
+  icon: "hexagon"
+  color: "black"
+runs:
+  using: "docker"
+  image: "Dockerfile"
