@@ -9,7 +9,7 @@ LABEL "repository"="https://github.com/tdeboissiere/python-format-action"
 LABEL "homepage"="https://github.com/tdeboissiere/python-format-action"
 LABEL "maintainer"="tdeboissier"
 
-RUN pip install black reorder-python-imports
+RUN pip install black reorder-python-imports==2.5.0
 
 COPY entrypoint.sh /entrypoint.sh
 
